@@ -1,5 +1,7 @@
 # UDP-Based Terminal Chat System
 
+> ⚠️ **STATUS: This project is currently under development/process**
+
 A simple yet powerful UDP-based chat application that allows multiple clients to communicate with a central server using terminal interface.
 
 ## Features
@@ -77,23 +79,6 @@ python user_2.py
 For broadcast messaging across multiple clients:
 ```bash
 python broadcast.py
-```
-
-## Configuration
-
-Edit the configuration in each file to match your network setup:
-
-**Server Configuration** (`Server/upd_server.py`):
-```python
-server_add = "192.168.1.4"  # Server IP address
-port = 9999                  # Server port
-buffersize = 1024            # Buffer size for messages
-```
-
-**Client Configuration** (`Client/udp_client.py`):
-```python
-server_add = "192.168.1.4"  # Server IP address
-port = 9999                  # Server port
 ```
 
 ## How It Works
