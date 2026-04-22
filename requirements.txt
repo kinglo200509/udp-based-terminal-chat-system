@@ -1,0 +1,11 @@
+# UDP-Based Terminal Chat System - Requirements
+
+# No external dependencies required
+# This project uses only Python's built-in socket module
+
+# Python Version Required
+# Python 3.6 or higher
+
+# Development Dependencies (optional)
+# pytest==7.0.0  # For testing
+# black==22.0.0  # For code formatting
