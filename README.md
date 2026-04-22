@@ -110,33 +110,6 @@ This is the received msg:- b'Hello from Client'
 This is the Server Address:- ('192.168.1.4', 9999)
 ```
 
-## Known Limitations
-
-- Single message handling per server run (limited by `n < 1` loop condition)
-- Fixed IP addresses (requires manual configuration)
-- No message encryption or authentication
-- Limited to local network communication
-
-## Future Enhancements
-
-- [ ] Multi-client concurrent support
-- [ ] Message encryption
-- [ ] User authentication
-- [ ] GUI interface
-- [ ] Persistent message logging
-- [ ] Support for private/group messaging
-- [ ] Configurable settings file
-- [ ] Error handling and logging
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
