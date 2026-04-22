@@ -1,18 +1,18 @@
 import socket
+import broadcast
 
 # creating an udp socket  
 udpSocket=socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 
 
-# detials
-server_add = "192.168.1.4"
-port = 9999
-collection = (server_add , port)
-
-
 # client Detials
 ip_int = socket.gethostname()
 ip_add  = socket.gethostbyname(ip_int)
+
+# detials
+broadcast.broacdcastFunc(ip_add , )
+collection = (server_add , port)
+
 
 # bind
 udpSocket.bind((ip_add , 0))

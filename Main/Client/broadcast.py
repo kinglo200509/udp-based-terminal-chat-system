@@ -1,7 +1,8 @@
 import socket
 
+
 # broadcast messages
-def broacdcastFun():
+def broacdcastFunc():
   braocastsocket = socket.socket(socket.AF_INET , socket.SOCK_DGRAM)
   # enabling broadcast and setting the same port number
   braocastsocket.setsockopt(socket.SOL_SOCKET , socket.SO_BROADCAST , 1 )
@@ -19,4 +20,4 @@ def broacdcastFun():
   print(f"This is the IP: {RecvIp[0]}")
   print(f"This is the port: {RecvIp[1]}")
 
-broacdcastFun()
+
