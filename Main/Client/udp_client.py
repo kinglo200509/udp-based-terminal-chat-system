@@ -3,15 +3,17 @@ import broadcast
 
 # creating an udp socket  
 udpSocket=socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-
+server_add = "192.168.1.4"
+port =9999
+collection = (server_add,port)
 
 # client Detials
 ip_int = socket.gethostname()
 ip_add  = socket.gethostbyname(ip_int)
 
 # detials
-broadcast.broacdcastFunc(ip_add , )
-collection = (server_add , port)
+# broadcast.broacdcastFunc(ip_add , )
+# collection = (server_add , port)
 
 
 # bind

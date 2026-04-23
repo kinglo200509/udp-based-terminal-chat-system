@@ -1,5 +1,9 @@
 import socket
+import number2binary
 
+ip = socket.gethostname()
+ip_add = socket.gethostbyname(ip)
+binary= number2binary.binary(ip_add)
 
 # broadcast messages
 def broacdcastFunc():
